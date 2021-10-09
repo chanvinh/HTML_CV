@@ -1,0 +1,220 @@
+@media screen and (max-width:480px) {
+    nav {
+        .nav {
+            transform: translateX(-300px);
+        }
+    }
+    main {
+        margin-left: 0px !important;
+        .main-1 {
+            .main-1-AboutMe {
+                .main-1-AboutMe-text {
+                    .main-1-AboutMe-textT {
+                        .front-end {
+                            &::after {
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-4 {
+            .main-4-mEduca {
+                .main-4-Educa_R {
+                    .main-4-Educa_R_test {
+                        .main-4-Educa_R_2{
+                            margin-bottom: 0px !important;
+                            padding-bottom: 2rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toggle_button {
+        display: block;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    nav {
+        .nav {
+            transform: translateX(-300px);
+        }
+    }
+    main {
+        margin-left: 0px !important;
+        .main-1 {
+            .main-1-AboutMe {
+                .main-1-AboutMe-text {
+                    .main-1-AboutMe-textT {
+                        .front-end {
+                            &::after {
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-4 {
+            .main-4-mEduca {
+                .main-4-Educa_R {
+                    .main-4-Educa_R_test {
+                        .main-4-Educa_R_2{
+                            margin-bottom: 0px !important;
+                            padding-bottom: 2rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toggle_button {
+        display: block;
+        .toggle_button_click {
+            i {
+                width: 50px !important;
+                height: 50px !important;
+                font-size: 25px !important;
+            }
+        }
+    }
+    .toggle_button_top {
+        i {
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 25px !important;
+        }
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        .nav {
+            transform: translateX(-300px);
+        }
+    }
+    .background {
+        .name-background {
+            h5 {
+                font-size: 55px !important;
+            }
+            p {
+                font-size: 55px !important;
+            }
+        }
+    }
+    main {
+        margin-left: 0px !important;
+        .main-1 {
+            .main-1-AboutMe {
+                .col-md-4 {
+                    width: 100% !important;
+                }
+                .col-md-8 {
+                    width: 100% !important;
+                    .main-1-AboutMe-text {
+                        .main-1-AboutMe-textT {
+                            margin-top: 10px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .main-3 {
+            .main-3-skills {
+                .col-md-6 {
+                    width: 100% !important;
+                }
+            }
+        }
+        .main-4 {
+            .main-4-mEduca {
+                .col-md-6 {
+                    width: 100% !important;
+                }
+                .main-4-Educa_R {
+                    .main-4-Educa_R_test {
+                        .main-4-Educa_R_2{
+                            margin-bottom: 0px !important;
+                            padding-bottom: 2rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toggle_button {
+        display: block;
+        .toggle_button_click {
+            i {
+                width: 65px !important;
+                height: 65px !important;
+                font-size: 35px !important;
+            }
+        }
+    }
+    .toggle_button_top {
+        i {
+            width: 65px !important;
+            height: 65px !important;
+            font-size: 35px !important;
+        }
+    }
+}
+
+@media screen and (width:1024px) {
+    nav {
+        .nav {
+            transform: translateX(-300px);
+        }
+    }
+    .background {
+        .name-background {
+            h5 {
+                font-size: 65px !important;
+            }
+            p {
+                font-size: 65px !important;
+            }
+        }
+    }
+    main {
+        margin-left: 0px !important;
+        .main-1 {
+            .main-1-AboutMe {
+                .main-1-AboutMe-text {
+                    .main-1-AboutMe-textT {
+                        p {
+                            line-height: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .toggle_button {
+        display: block;
+        right: 20px !important;
+        .toggle_button_click {
+            i {
+                width: 85px !important;
+                height: 85px !important;
+                font-size: 45px !important;
+            }
+        }
+    }
+    .toggle_button_top {
+        right: 20px !important;
+        transform:translateX(0px);
+        i {
+            width: 85px !important;
+            height: 85px !important;
+            font-size: 45px !important;
+        }
+    }
+}
